@@ -1,0 +1,67 @@
+{% extends 'base.html'%}
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{% load static %}
+		<link rel="stylesheet" href="{%static 'assets/css/fontawesome-all.min.css'%}" />
+		<link rel="stylesheet" href="{%static 'assets/css/main.css'%}" />
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<body class="is-preload">
+		{% block content %}
+
+		
+							<section>
+								<header class="major">
+									<h2>OUR PROFEDDIONAL COURCSES</h2>
+								</header>
+								<div class="posts">
+									<article>
+										<a href="#" class="image"><img src="{% static 'images/img01.jpg'%}" alt="" /></a>
+							
+										<h3>Internet of Things</h3>
+										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">More</a></li>
+										</ul>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="{% static 'images/img02.jpg'%}" alt="" /></a>
+										<h3>Ethical Hacking</h3>
+										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">More</a></li>
+										</ul>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="{% static 'images/img03.jpg'%}" alt="" /></a>
+										<h3>Cyber Security</h3>
+										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">More</a></li>
+										</ul>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="{% static 'images/img04.jpg'%}" alt="" /></a>
+										<h3>Mobile Hardware Technition</h3>
+										<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">More</a></li>
+										</ul>
+									</article>
+									
+								</div>
+							</section>
+							{% endblock %}
+
+							
+	</body>
+</html>

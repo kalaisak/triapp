@@ -1,0 +1,168 @@
+{%extends 'base.html'%}
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Editorial by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		{% load static %}
+		<link rel="stylesheet" href="{%static 'assets/css/fontawesome-all.min.css'%}" />
+		<link rel="stylesheet" href="{%static 'assets/css/main.css'%}" />
+       <link rel="stylesheet" href="{%static 'assets/css/form.css'%}" />
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<body class="is-preload">
+
+
+							<!-- Banner -->
+							{% block content %}
+                            <section>
+								<header class="major">
+									<h2>Cyber Security</h2>
+								</header>
+                                <div class="container">
+                                    <div class="title">Registration</div>
+                                    <div class="content">
+                                      <form action="#">
+                                        <div class="user-details">
+                                          <div class="input-box">
+                                            <span class="details">Full Name</span>
+                                            <input type="text" placeholder="Enter your name" required>
+                                          </div>
+                                          <div class="input-box">
+                                            <span class="details">Username</span>
+                                            <input type="text" placeholder="Enter your username" required>
+                                          </div>
+                                          <div class="input-box">
+                                            <span class="details">Email</span>
+                                            <input type="text" placeholder="Enter your email" required>
+                                          </div>
+                                          <div class="input-box">
+                                            <span class="details">Phone Number</span>
+                                            <input type="text" placeholder="Enter your number" required>
+                                          </div>
+                                          <div class="input-box">
+                                            <span class="details">Password</span>
+                                            <input type="text" placeholder="Enter your password" required>
+                                          </div>
+                                          <div class="input-box">
+                                            <span class="details">Confirm Password</span>
+                                            <input type="text" placeholder="Confirm your password" required>
+                                          </div>
+                                        </div>
+                                        <div class="gender-details">
+                                          <input type="radio" name="gender" id="dot-1">
+                                          <input type="radio" name="gender" id="dot-2">
+                                          <input type="radio" name="gender" id="dot-3">
+                                          <span class="gender-title">Gender</span>
+                                          <div class="category">
+                                            <label for="dot-1">
+                                            <span class="dot one"></span>
+                                            <span class="gender">Male</span>
+                                          </label>
+                                          <label for="dot-2">
+                                            <span class="dot two"></span>
+                                            <span class="gender">Female</span>
+                                          </label>
+                                          <label for="dot-3">
+                                            <span class="dot three"></span>
+                                            <span class="gender">Prefer not to say</span>
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="button1">
+                                          <input type="submit" value="Register">
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </div>
+                            </section>
+
+							{% endblock %}
+
+							<!-- Section -->
+							
+							<footer id="footer">
+								<p class="copyright">Copyrights &copy; - 2024 | Developed By Kalaivanan </p>
+							</footer>
+
+						</div>
+					</div>
+					
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<li><a class="link-offset-2 link-underline link-underline-opacity-0" href="index">Homepage</a></li>
+										<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='apply'>APPLY NOW</a></li>
+										<li>
+											<span class="opener">COURCSES</span>
+											<ul>
+												<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='IOTform'>Internet of things</a></li>
+												<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='EHform'>Ethical Hacking</a></li>
+												<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='cyberform'>Cyber Security</a></li>
+												<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='MHTform'>Mobile Hadware Technition</a></li>
+											</ul>
+										</li>
+										<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='notification'>Notification</a></li>
+										<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='admin'>Admin</a></li>
+										
+										<li><a class="link-offset-2 link-underline link-underline-opacity-0"href='login'>Login</a></li>
+										<li><a class="link-offset-2 link-underline link-underline-opacity-0" href='register'>Register</a></li>
+										
+									</ul>
+								</nav>
+
+							
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+										<li class="icon solid fa-phone">(000) 000-0000</li>
+										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
+										Nashville, TN 00000-0000</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">Copyrights &copy; - 2024 | Developed By Kalaivanan </p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js'%}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+			<script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'assets/js/util.js' %}"></script>
+			<script src="{% static 'assets/js/main.js' %}"></script>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+	</body>
+</html>
